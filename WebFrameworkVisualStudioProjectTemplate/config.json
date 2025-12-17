@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LazyPanda07/WebFramework/refs/heads/master/schemas/web_framework_config_schema.json",
+  "WebServer": {
+    "ip": "0.0.0.0",
+    "port": 8080
+  },
+  "WebFramework": {
+    "assetsPath": "assets",
+    "templatesPath": "templates",
+    "webServerType": "multiThreaded",
+    "settingsPaths": [ "web.json" ],
+    "defaultAssetsPath": "WebFrameworkAssets",
+    "HTTPS": {
+      "useHTTPS": true,
+      "pathToCertificate": "certificates/cert.pem",
+      "pathToKey": "certificates/key.pem"
+    }
+  },
+  "Logging": {
+    "usingLogging": true,
+    "dateFormat": "DMY",
+    "logFileSize": 134217728
+  }
+}
