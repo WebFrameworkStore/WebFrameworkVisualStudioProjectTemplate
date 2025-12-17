@@ -14,7 +14,7 @@
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{24548578-fd32-43a9-be4b-d4d3f4a3df8a}</ProjectGuid>
-    <RootNamespace>WebFrameworkVisualStudioProjectTemplate</RootNamespace>
+    <RootNamespace>{{ cookiecutter.project_name }}</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -94,10 +94,10 @@ xcopy /y $(ProjectDir)settings\web.json $(OutDir)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Executor.cpp" />
+    <ClCompile Include="src\{{ cookiecutter.executor_name }}.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Executor.h" />
+    <ClInclude Include="include\{{ cookiecutter.executor_name }}.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="config.json" />

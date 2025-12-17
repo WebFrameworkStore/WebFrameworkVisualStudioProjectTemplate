@@ -8,7 +8,12 @@
     "assetsPath": "assets",
     "templatesPath": "templates",
     "webServerType": "multiThreaded",
-    "settingsPaths": [ "web.json" ],
+    "settingsPaths": [
+       "web.json" 
+    ],
+    "loadSources": [
+      "{{ cookiecutter.project_name }}"
+    ],
     "defaultAssetsPath": "WebFrameworkAssets",
     "HTTPS": {
       "useHTTPS": true,
