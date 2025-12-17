@@ -1,0 +1,2 @@
+# WebFrameworkVisualStudioProjectTemplate
+Visual Studio template project with cookiecutter support
