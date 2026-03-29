@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/LazyPanda07/WebFramework/refs/heads/master/schemas/executors_schema.json",
+  "$schema": "https://raw.githubusercontent.com/LazyPanda07/WebFramework/refs/heads/main/schemas/executors_schema.json",
   "{{ cookiecutter.executor_name }}": {
     "route": "",
     "loadType": "initialization",
