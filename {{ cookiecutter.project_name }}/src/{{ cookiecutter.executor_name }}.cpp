@@ -34,3 +34,5 @@ void {{ cookiecutter.executor_name }}::doPatch(framework::HttpRequest& request, 
 {
 	request.throwException<framework::exceptions::NotImplementedDoMethodException>(__func__, typeid(*this).name());
 }
+
+DEFINE_EXECUTOR({{ cookiecutter.executor_name }})
